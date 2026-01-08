@@ -78,7 +78,10 @@ def generate_pipeline(repo_root: Path, model_path: Path, start_word: str, genera
         end_id=end_id,
         max_len=generate_max_len,
     )
-    print("Generated:", sample)
+    print("Generated shayari :")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    print(sample)
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     return sample
 
 if __name__ == "__main__":
