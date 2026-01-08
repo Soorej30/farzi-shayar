@@ -1,0 +1,4 @@
+*.keras filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+Poetry[[:space:]]transformer[[:space:]]modules/shayari-transformer/data/processed/*.csv filter=lfs diff=lfs merge=lfs -text
