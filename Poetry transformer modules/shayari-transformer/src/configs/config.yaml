@@ -1,0 +1,28 @@
+poetry-generator/
+│
+├── data/
+│   ├── raw/                     # Original raw data files
+│   │   └── shayari_db.csv       # The original poetry dataset
+│   ├── processed/               # Processed data files
+│   │   └── cleaned_poetry.txt   # Cleaned and preprocessed poetry data
+│   └── scripts/                 # Scripts for data processing
+│       └── preprocess.py        # Script to clean and preprocess the data
+│
+├── notebooks/                   # Jupyter notebooks for exploration and experimentation
+│   └── exploratory_analysis.ipynb # Notebook for data exploration and analysis
+│
+├── models/                      # Directory for model-related files
+│   ├── transformer_model.py      # Transformer model architecture
+│   ├── train.py                  # Training script
+│   ├── evaluate.py               # Evaluation script
+│   └── utils.py                  # Utility functions for model training and evaluation
+│
+├── config/                      # Configuration files
+│   └── config.yaml               # Configuration file for model parameters and training settings
+│
+├── logs/                        # Directory for logging outputs
+│   └── training.log              # Log file for training process
+│
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project overview and instructions
+└── main.py                      # Main entry point for running the training and generation
